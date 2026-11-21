@@ -14,11 +14,3 @@ buscar.addEventListener("input", function() {
         }
     });
 });
-
-const contenedor = document.getElementById("contenedor");
-const imagen = document.createElement("img");
-
-imagen.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsc0I5OqWF00NnEL-9xCC_ZF0cPHg7Qvog87lL_KOeBw&s=10.jpg";
-imagen.width = 300; // opcional
-
-contenedor.appendChild(imagen);
