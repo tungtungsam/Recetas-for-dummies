@@ -67,3 +67,30 @@ footer {
     color: #7e477b;
 }
 
+/* BUSCADOR */
+.busqueda {
+    text-align: center;
+    padding: 10px;
+}
+
+.busqueda input {
+    padding: 10px;
+    width: 230px;
+    border: 2px solid #d8b4fe;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+/* FAVORITOS */
+.favorito {
+    background-color: #fbcfe8;
+    color: #a21caf;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.favorito:hover {
+    background-color: #f9a8d4;
+}
