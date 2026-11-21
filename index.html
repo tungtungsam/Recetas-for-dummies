@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -5,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recetas for dummies</title>
     <link rel="stylesheet" href="css/loquesea.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -20,14 +22,20 @@
         <h2>Tutoriales</h2>
     </header>
 
+    <section class="busqueda">
+        <input type="text" id="buscar" placeholder="Buscar una receta...">
+    </section>
+
     <main id="tarjetas" class="contenedor">
 
         <div class="tarjeta">
             <a href="receta1.html"><h2>Receta 1</h2></a>
+            <button class="favorito">♡ Favoritos</button>
         </div>
 
         <div class="tarjeta">
             <a href="receta2.html"><h2>Receta 2</h2></a>
+            <button class="favorito">♡ Favoritos</button>
         </div>
 
     </main>
