@@ -19,15 +19,12 @@ buscar.addEventListener("input", function() {
 const botones = document.querySelectorAll(".favorito");
 botones.forEach(function(boton, i) {
     let favorito = localStorage.getItem("receta" + i);
-    if (favorito === "si") {
     }
     
     boton.addEventListener("click", function() {
         if (localStorage.getItem("receta" + i) === "si") {
             localStorage.removeItem("receta" + i);
         } else {
-            localStorage.setItem("receta" + i, "si");
-
         }
 
     });
